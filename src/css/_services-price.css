@@ -1,0 +1,28 @@
+.service-price__top {
+  padding-top: 3em;
+}
+.service-price__top .section__item-title {
+  text-align: center;
+}
+.service-price__top .services-price__line {
+  margin: 1em auto;
+}
+.service-price__top .service-price__top-content {
+  text-align: center;
+  width: 40em;
+  margin: 0 auto;
+}
+.service-price__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.service-price__bottom-content {
+  max-width: 48%;
+}

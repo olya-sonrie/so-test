@@ -1,0 +1,113 @@
+.reviews__top {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.reviews__top .reviews__item-content {
+  font-size: 15px;
+}
+.reviews__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin: 0 5%;
+}
+.reviews__content-item {
+  width: 29%;
+}
+.reviews__content-item .reviews__content-description {
+  font-size: 18px;
+  margin-top: 7%;
+  margin-bottom: 16%;
+}
+.reviews__content-top {
+  max-width: 100%;
+  position: relative;
+}
+.reviews__content-icon {
+  color: #e0e0e3;
+}
+.reviews__content-play {
+  color: #ffffff;
+  background-color: #e0e0e3;
+  border: 2px solid #e0e0e3;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  padding: 3px 4px;
+}
+.reviews__pic {
+  width: 3.1em;
+  height: 3.1em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.reviews__pic:hover {
+  cursor: pointer;
+}
+.reviews__pic-first {
+  background-image: url("../img/comment1.jpg");
+  background-position: 33% 26%;
+}
+.reviews__pic-last {
+  background-image: url("../img/comment2.jpg");
+  background-position: 40% 45%;
+}
+.reviews__video {
+  margin-top: 8%;
+  background: url("../img/comment3.jpg");
+  width: 100%;
+  height: 12.5em;
+  background-position: 70% 7%;
+}
+.reviews__video-play {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  top: 50%;
+  left: 43%;
+  padding: 10px 12px;
+  position: absolute;
+}
+.reviews__video-play:hover,
+.reviews__video-play:focus,
+.reviews__video-play:active {
+  cursor: pointer;
+  color: #c4055e;
+  background-color: #c1c1c4;
+  border: 1px solid #c1c1c4;
+}
+.reviews__name {
+  margin-bottom: 4%;
+}
+.reviews__position {
+  font-weight: 500;
+}
+.reviews__position .dot {
+  color: #c4055e;
+}
+.reviews__content-bottom {
+  margin-top: 8%;
+}
+.reviews__bottom {
+  margin-top: 6%;
+  text-align: center;
+}
+.reviews__bottom .refresh-icon {
+  left: 44%;
+  font-size: 21px;
+  position: absolute;
+  color: #c4055e;
+}
+.reviews__content-item:hover .reviews__content-icon,
+.reviews__content-item:hover .reviews__name {
+  color: #c4055e;
+}

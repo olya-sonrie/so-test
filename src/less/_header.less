@@ -1,0 +1,127 @@
+.header {
+  height: 42em;
+  box-shadow:0 0 0 44em rgba(245,245,245,0.5) inset;
+
+  p {
+    font-size: 15px;
+  }
+
+  .header__line {
+    margin: 2em 0;
+  }
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.8em;
+
+  .header__logo {
+    display: flex;
+    background-image: url("../icons/logo.png");
+    background-size: cover;
+    width: 110px;
+    height: 51px;
+    margin-left: 10em;
+  }
+
+  .header__top-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    justify-content: space-around;
+
+    .header__nav {
+      margin: 0 2em;
+
+      .header__nav-link {
+        margin: 1em;
+      }
+    }
+  }
+}
+
+.header__nav-menu,
+.header__nav-hide {
+  display: none;
+  margin: 1em;
+}
+
+.lang-switcher {
+  list-style: none;
+  margin: 0 4em;
+  position: relative;
+
+  .lang-switcher__item-circle {
+    color: #e0e0e3;
+    font-size: 20px;
+    position: absolute;
+    left: 16%;
+  }
+
+  .lang-switcher__link {
+    border: 2px solid #e0e0e3;
+    border-radius: 25px;
+    padding: 10px 12px 8px 34px;
+  }
+
+  .en {
+    display: none;
+  }
+}
+
+.header__bottom {
+  height: 74%;
+  padding-top: 6.5%;
+  padding-left: 9.5%;
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-position: 85% 71%;
+  position: relative;
+
+  .header__bottom-play {
+    width: 5.5em;
+    height: 5.5em;
+    left: 46%;
+    top: 33%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .fa-play {
+      padding: 31px 35px;
+      font-size: 28px;
+      color: #c4055e;
+    }
+  }
+
+  .header__item-title {
+    max-width: 11em;
+  }
+
+  .header__content {
+    line-height: 1.5em;
+    max-width: 30em;
+    font-size: 15px;
+    margin-bottom: 4.5em;
+
+    p {
+      margin-bottom: 2em;
+    }
+  }
+
+  .header__bottom-button {
+    position: relative;
+  }
+
+  .button-icon {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 24px;
+  }
+}

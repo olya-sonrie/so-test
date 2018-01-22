@@ -1,0 +1,130 @@
+.request__top {
+  margin-bottom: 2%;
+}
+.request__form {
+  max-width: 65%;
+  margin: 0 auto;
+}
+.request__form input:hover,
+.request__form select:hover,
+.request__form textarea:hover {
+  cursor: pointer;
+}
+.request__form input:focus,
+.request__form select:focus,
+.request__form textarea:focus {
+  outline: none;
+}
+.request__form-left .request__form-input {
+  width: 34em;
+  height: 1.5em;
+  padding-bottom: 2px;
+  padding-top: 30px;
+  font-size: 11px;
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  text-transform: uppercase;
+}
+.request__form-left .request__form-select {
+  margin-top: 14%;
+  border: 1px solid #dddddd;
+}
+.request__form-left .select-name {
+  padding: 14px 7px 14px 23px;
+  width: 31.5em;
+  border-bottom: 1px solid #dddddd;
+  background-color: #fcfcfd;
+  font-size: 11px;
+  font-weight: 600;
+  position: relative;
+}
+.request__form-left .select-name .arrow {
+  color: #c1c1c4;
+  font-size: 26px;
+  position: absolute;
+  left: 89%;
+  top: 20%;
+  font-weight: 400;
+}
+.request__form-left .request__list {
+  margin: 7% 0 0 11%;
+  list-style-type: none;
+  padding-bottom: 7%;
+}
+.request__form-left .request__list input[type="radio"] {
+  visibility: hidden;
+}
+.request__form-left .request__list input[type="radio"]:checked label {
+  color: #c4055e;
+  cursor: pointer;
+}
+.request__form-left .request__list > li {
+  position: relative;
+  margin-top: 5%;
+}
+.request__form-left .request__list > li:before {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: -5%;
+  width: 3px;
+  height: 3px;
+  margin-top: 2px;
+  border: 2px solid #c1c1c4;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.request__form-left .request__list > li:hover,
+.request__form-left .request__list > li:focus,
+.request__form-left .request__list > li:active {
+  color: #c4055e;
+  font-weight: 600;
+  cursor: pointer;
+}
+.request__form-left .request__list > li:hover:before,
+.request__form-left .request__list > li:focus:before,
+.request__form-left .request__list > li:active:before {
+  border: 2px solid #c4055e;
+}
+.request__form-left .request__list > li:hover label,
+.request__form-left .request__list > li:focus label,
+.request__form-left .request__list > li:active label {
+  cursor: pointer;
+}
+.request__form-right {
+  margin-top: 2.5%;
+}
+.request__form-right textarea {
+  padding: 5% 5%;
+  margin-top: 2%;
+  width: 25.5em;
+  height: 15.5em;
+  border-color: #dddddd;
+  resize: none;
+}
+.request__form-right label {
+  font-size: 11px;
+  font-weight: 600;
+}
+.request__form-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.separate-line__request {
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+.request__bottom {
+  text-align: center;
+  margin-top: 7%;
+}
+.request__bottom .request__form-submit {
+  padding: 2.2% 7% 2.2% 7%;
+}

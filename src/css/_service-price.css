@@ -1,0 +1,203 @@
+.service-price .separate-line__bottom {
+  margin-top: 1.5em;
+}
+.service-price__top {
+  padding-top: 3em;
+}
+.service-price__top .service-price__top-content {
+  text-align: center;
+  width: 40em;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.section__item-title {
+  text-align: center;
+}
+.service-price__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service-price__bottom .service-price__first,
+.service-price__bottom .service-price__last {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.service-price__bottom .service-price__first {
+  border-bottom: 2.4px dotted #e0e0e3;
+  margin: 1% 10% 1.7% 10%;
+  padding-bottom: 1.7%;
+}
+.service-price__bottom .service-price__last {
+  margin: 3% 10% 0 10%;
+}
+.service-price__content-title {
+  margin-bottom: 5%;
+}
+.first-title {
+  max-width: 50%;
+}
+.second-title {
+  max-width: 64%;
+}
+.third-title {
+  max-width: 95%;
+}
+.fourth-title {
+  max-width: 60%;
+}
+.service-price__list {
+  margin-left: 1em;
+  list-style-type: none;
+}
+.service-price__list > li {
+  position: relative;
+}
+.service-price__list > li:before {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: -5%;
+  width: 3px;
+  height: 3px;
+  margin-top: 2px;
+  border: 2px solid #c4055e;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.service-price__bottom-content {
+  max-width: 50%;
+  line-height: 1.3em;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.service-price__bottom-content:hover .info-icon {
+  background-color: #c4055e;
+  color: #ffffff;
+}
+.service-price__bottom-content .service-price__bottom-description {
+  max-width: 420px;
+}
+.service-price__bottom-content .info-icon {
+  border: 1.5px solid #c4055e;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  font-size: 14px;
+  position: absolute;
+  left: 88%;
+  top: 1%;
+  padding: 2px 10px;
+}
+.service-price__bottom-border {
+  border-left: 2.4px dotted #e0e0e3;
+  padding-left: 3.5%;
+}
+.service-price__bottom-border .service-price__bottom-description {
+  max-width: 430px;
+}
+.service-price__icon {
+  margin-right: 7%;
+  margin-top: -7px;
+}
+.service-price__modal-window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.service-price__modal {
+  max-width: 40%;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  top: -36em;
+  left: 9%;
+  background-color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+}
+.service-price__modal .modal-line {
+  position: absolute;
+  left: 100%;
+  top: -8%;
+  width: 23px;
+  height: 205px;
+}
+.service-price__modal .service-title {
+  font-size: 11px;
+  font-weight: 700;
+  margin-right: 10%;
+}
+.service-price__modal .service-price__content-title {
+  max-width: 65%;
+}
+.service-price__modal .service-price__modal-top,
+.service-price__modal .service-price__modal-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 94.1%;
+  line-height: 1.3em;
+  margin-bottom: 5%;
+}
+.service-price__modal .service-price__modal-first,
+.service-price__modal .service-price__modal-second,
+.service-price__modal .service-price__modal-third {
+  margin-left: 3%;
+  margin-right: 6.5%;
+}
+.service-price__modal .service-price__modal-first p,
+.service-price__modal .service-price__modal-second p,
+.service-price__modal .service-price__modal-third p {
+  font-size: 12px;
+}
+.service-price__modal .service-price__modal-first span,
+.service-price__modal .service-price__modal-second span,
+.service-price__modal .service-price__modal-third span {
+  font-size: 15px;
+}
+.service-price__modal .service-price__modal-third {
+  margin-right: 0;
+}
+.service-price__modal .order-button {
+  margin-left: 15%;
+  padding: 2% 5%;
+  margin-bottom: 20%;
+}

@@ -1,0 +1,263 @@
+@media (min-width: 320px) and (max-width: 599px) {
+  .container {
+    width: 100%;
+  }
+
+  .separate-line {
+    margin: 2em 0;
+  }
+
+  .header {
+    height: 100%;
+
+    .header__top {
+      height: 6em;
+      padding-top: 2em;
+
+      .header__logo {
+        margin-left: 3em;
+      }
+
+      .header__top-content {
+        width: 48%;
+
+        .header__nav {
+          display: flex;
+          flex-direction: column;
+          margin: 0 1em;
+        }
+
+        .header__nav-menu {
+          display: flex;
+          margin: -0.5em 0.5em 0 3em;
+          font-size: 29px;
+        }
+
+        .header__nav-link {
+          display: none;
+          margin: 2% 0.5em;
+        }
+
+        .header__nav-hide {
+          display: none;
+          margin: -0.6em 0.5em 0 3em;
+          font-size: 31px;
+        }
+
+        .lang-switcher {
+          display: none;
+        }
+      }
+    }
+
+    .header__bottom {
+      background-image: none;
+      padding: 5%;
+      margin-bottom: 2em;
+
+      .header__bottom-play {
+        display: none;
+      }
+
+      .header__item-title {
+        font-size: 25px;
+      }
+
+      .header__bottom-button {
+        padding: 4% 5% 4% 15%;
+        margin-bottom: 2em;
+
+        .button-icon {
+          top: 12%;
+          left: 8%;
+        }
+      }
+    }
+  }
+
+  .service-price {
+
+    .section__item-title {
+      font-size: 20px;
+    }
+
+    .service-price__top-content {
+      font-size: 12px;
+      width: auto;
+    }
+
+    .service-price__bottom {
+      width: 90%;
+      margin: 0 auto;
+
+      .service-price__first,
+      .service-price__last {
+        margin: 4%;
+
+        .service-price__bottom-content {
+          width: 90%;
+          font-size: 12px;
+          margin-bottom: 8%;
+          flex-direction: column;
+          padding-left: 5%;
+
+          .first-title {
+            max-width: 65%;
+          }
+
+          .service-price__list, p {
+            display: none;
+          }
+        }
+
+        .service-price__bottom-border {
+          padding-left: 5%;
+        }
+
+        .service-price__bottom-description {
+          max-width: 100%;
+        }
+      }
+
+      .service-price__last {
+        margin-bottom: 0;
+      }
+    }
+
+    .service-price__content-title {
+      font-size: 11px;
+    }
+
+    .info-icon {
+      display: none;
+    }
+  }
+
+  .reviews {
+
+    .reviews__top {
+      margin-bottom: 1%;
+    }
+
+    .section__item-title {
+      font-size: 20px;
+    }
+
+    .reviews__item-content {
+      font-size: 13px;
+    }
+
+    .reviews__content {
+      flex-direction: column;
+
+      .reviews__content-item {
+        width: auto;
+        text-align: center;
+        margin-top: 7%;
+
+        .reviews__pic {
+          margin: 0 auto;
+        }
+
+        .reviews__content-description {
+          font-size: 12px;
+          margin: 2% 0;
+        }
+
+        .reviews__video {
+          width: auto;
+          height: 56vh;
+          background-position: 56% 7%;
+          margin: 4% 8%;
+          background-repeat: no-repeat;
+        }
+
+        .reviews__content-bottom {
+          margin-top: 3%;
+
+          .reviews__name {
+            margin-bottom: 1%;
+          }
+        }
+      }
+    }
+
+    & > .reviews__bottom {
+
+      .refresh-icon {
+        padding-right: 2%;
+        position: relative;
+        left: 0;
+      }
+    }
+  }
+
+  .request {
+
+    .section__item-title {
+      font-size: 20px;
+    }
+
+    .request__form {
+      max-width: 90%;
+
+      .request__form-content {
+        flex-direction: column;
+      }
+
+      .request__form-left {
+
+        .request__form-input,
+        .request__form-select {
+          width: 100%;
+        }
+
+        .select-name {
+          width: auto;
+
+          .arrow {
+            width: 89.5%;
+          }
+        }
+      }
+
+      .request__form-right {
+        margin-top: 9%;
+        width: 100%;
+
+        textarea {
+          width: auto;
+          margin: 4% auto;
+          height: 6em;
+        }
+      }
+    }
+
+    li {
+      font-size: 11px;
+    }
+
+    .request__form-submit {
+      padding: 3% 9% 3% 9%;
+    }
+  }
+
+  .footer {
+
+    .address, .phone, .mail {
+      font-size: 13px;
+    }
+
+    .footer__social-links {
+      margin: 10%;
+
+      .link {
+        margin-right: 3%;
+
+        &:nth-child(3) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
